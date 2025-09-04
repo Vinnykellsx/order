@@ -1,0 +1,171 @@
+body {
+  background: url(/images/pattern-background-desktop.svg);
+  background-color: hsl(225, 100%, 94%);
+  font-family: Red Hat Display;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.order {
+  max-width: 300px;
+  background-color: white;
+  border-radius: 15px;
+  text-align: center;
+}
+
+.container {
+  padding: 20px;
+}
+
+.hero {
+  width: 100%;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+}
+
+h3 {
+  margin: 0;
+  font-weight: 900;
+}
+
+.text {
+  font-size: 0.7rem;
+  color: hsl(224, 23%, 55%);
+  font-weight: 700;
+}
+
+.order-select {
+  background-color: hsl(225, 100%, 98%);
+  padding: 15px;
+  font-size: 0.72rem;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.order-left {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.musicon {
+  width: 35px;
+  height: 35px;
+}
+
+.annyp strong {
+  color: black;
+  font-weight: 900;
+  display: block;
+}
+
+.anny {
+  color: hsl(224, 23%, 55%);
+  font-weight: 700;
+  font-size: 0.7rem;
+}
+
+.change {
+  color: hsl(245, 75%, 52%);
+  text-decoration: underline;
+  font-weight: 900;
+  font-size: 0.65rem;
+}
+
+.change:hover {
+  text-decoration: none;
+  cursor: pointer;
+  color: hsl(245, 75%, 70%);
+}
+
+.button {
+  font-size: 0.65rem;
+  font-weight: 700;
+  background-color: hsl(245, 75%, 52%);
+  color: hsl(225, 100%, 98%);
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  box-shadow: 0 8px 20px hsl(245, 75%, 70%, 0.6);
+}
+
+.button:hover {
+  cursor: pointer;
+  background-color: hsl(245, 75%, 70%);
+}
+
+.cancel {
+  color: hsl(224, 23%, 55%);
+  font-size: 0.65rem;
+  font-weight: 900;
+  margin-top: 20px;
+}
+
+.cancel:hover {
+  cursor: pointer;
+  color: hsl(223, 47%, 23%);
+}
+
+@media (max-width: 450px) {
+  .body {
+    background: url(/images/pattern-background-mobile.svg);
+  }
+
+  .order {
+    max-width: 350px;
+    border-radius: 25px;
+  }
+
+  .container {
+    padding: 30px;
+  }
+
+  .hero {
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+  }
+
+  h3 {
+    font-size: 1.7rem;
+  }
+
+  .text {
+    line-height: 30px;
+    font-size: 1.05rem;
+  }
+
+  .order-select {
+    padding: 20px;
+    font-size: 1rem;
+    border-radius: 10px;
+  }
+
+  .musicon {
+    width: 45px;
+    height: 45px;
+  }
+
+  .anny {
+    font-size: 1rem;
+  }
+
+  .change {
+    font-size: 1rem;
+  }
+
+  .button {
+    font-size: 1rem;
+    border-radius: 10px;
+    padding: 15px;
+  }
+
+  .cancel {
+    font-size: 1rem;
+  }
+}
